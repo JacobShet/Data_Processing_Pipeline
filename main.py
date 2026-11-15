@@ -21,8 +21,6 @@ def main():
     print(f"  Experience vs Salary correlation: {results['experience_salary_correlation']:.2f}")
     print(f"  Location with the highest average satisfaction: {results['avg_satisfaction_by_location'].idxmax()}")
 
-    print("Pipeline not yet implemented — fill in pipeline.py to continue.")
-
 
 if __name__ == "__main__":
     main()
